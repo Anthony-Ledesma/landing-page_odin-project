@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header,
+.section-one,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.nav-links,
+.hero-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button,
+.call-to-action {
+    color: #3882F6;
+}
+
+.section-two h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.section-four {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+}
