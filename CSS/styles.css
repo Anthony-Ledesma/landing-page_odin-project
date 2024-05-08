@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -20,7 +20,11 @@ ul {
 
 button {
     padding: 10px 25px;
+    font-weight: bold;
+    border: none;
     border-radius: 10px;
+    color: #F9FAF8;
+
 }
 
 .header,
@@ -114,14 +118,33 @@ button,
     width: 180px;
 }
 
-.section-four {
+/* Section 4 */
+.section-three {
     background-color: #E5E7EB;
 }
 
+.quote-box {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.quote,
+.quote-credit {
+    margin: 0px;
+}
+
 .quote {
-    font-size: 36px;
-    font-weight: light italic;
-    color: #1F2937;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #424242;
+}
+
+.quote-credit {
+    align-self: flex-end;
 }
 
 .header {
@@ -131,3 +154,19 @@ button,
     padding: 10px;
 }
 
+.call-to-action {
+    display: flex;
+    width: 800px;
+    height: 150px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 100px 80px;
+}
+
+.call-to-action .left {
+display: flex;
+flex-direction: column;
+}
