@@ -1,6 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+    margin: 0px;
 }
 
 .logo {
@@ -32,10 +33,6 @@ button {
     background-color: #1F2937;
 }
 
-.header {
-    margin: 20px 125px;
-}
-
 .hero-container h1 {
     font-size: 48px;
     font-weight:600;
@@ -60,12 +57,26 @@ button,
 
 
 /* Section 1 */
+.section-one {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.header {
+    margin: 10px 150px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px 150px;
+    margin: 50px 150px;
 }
 
 .hero-container {
@@ -148,13 +159,6 @@ button,
 .quote-credit {
     align-self: flex-end;
     color: #1F2937;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
 }
 
 .call-to-action {
